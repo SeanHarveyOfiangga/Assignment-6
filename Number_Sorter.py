@@ -58,11 +58,16 @@ def Numbers():
                 exit()
     elif Second >= First and Second >= Third and Second >= Fourth:
         One = Second
-        print (One)
+        if First >= Third and First >= Fourth:
+            Two = Second
+        if Third >= First and Third >= Fourth:
+            Two = Second
+        if Fourth >= Third and Fourth >= First:
+            Two = Second
     elif First >= First and First >= Second and First >= Fourth:
         One = Third
-        print (One)
+        
     elif Fourth >= First and Fourth >= Third and Fourth >= Second:
         One = Fourth
-        print (One)
+        
 Numbers()
