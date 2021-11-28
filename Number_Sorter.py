@@ -11,5 +11,12 @@ def numbers():
     Second = int(input("Please enter your Second number: "))
     Third = int(input("Please enter your Third number: "))
     Fourth = int(input("Please enter your Fourth number: "))
-    print (f"You picked: {First}, {Second}, {Third}, {Fourth}")
+    One = First
+    if One < Second:
+        One = Second
+        if One < Third:
+            One = Third
+        if One < Fourth:
+            One = Fourth
+    print (One)
 numbers()
