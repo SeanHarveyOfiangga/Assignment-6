@@ -146,5 +146,47 @@ def Numbers():
                 exit()
     elif Fourth >= First and Fourth >= Third and Fourth >= Second:
         One = Fourth
+        if First >= Third and First >= Second:
+            Two = First
+            if Third >= Second:
+                Three = Third
+                Four = Second
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
+            if Second >= Third:
+                Three = Second
+                Four = Third
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
+        if Third >= First and Third >= Second:
+            Two = Third
+            if First >= Second:
+                Three = First
+                Four = Second
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
+            if Second >= First:
+                Three = Second
+                Four = First
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
+        if Second >= Third and Second >= First:
+            Two = Second
+            if First >= Third:
+                Three = First
+                Four = Third
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
+            if Third >= First:
+                Three = Third
+                Four = First
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
         
 Numbers()
