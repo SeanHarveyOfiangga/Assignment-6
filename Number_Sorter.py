@@ -24,7 +24,7 @@ def Numbers():
                 exit()
             if Fourth >= Third:
                 Three = Fourth
-                Four = Three
+                Four = Third
                 print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
                 print ("\nThank you for using Number Sorter App!")
                 exit()
@@ -59,11 +59,47 @@ def Numbers():
     elif Second >= First and Second >= Third and Second >= Fourth:
         One = Second
         if First >= Third and First >= Fourth:
-            Two = Second
+            Two = First
+            if Third >= Fourth:
+                Three = Third
+                Four = Fourth
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
+            if Fourth >= Third:
+                Three = Fourth
+                Four = Third
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
         if Third >= First and Third >= Fourth:
-            Two = Second
+            Two = Third
+            if First >= Fourth:
+                Three = First
+                Four = Fourth
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
+            if Fourth >= First:
+                Three = Fourth
+                Four = First
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
         if Fourth >= Third and Fourth >= First:
-            Two = Second
+            Two = Fourth
+            if First >= Third:
+                Three = First
+                Four = Third
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
+            if Third >= First:
+                Three = Third
+                Four = First
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
     elif First >= First and First >= Second and First >= Fourth:
         One = Third
         
