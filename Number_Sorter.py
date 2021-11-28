@@ -20,16 +20,28 @@ def Numbers():
                 Three = Third
                 Four = Fourth
                 print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
-                print ("Thank you for using Number Sorter App!")
+                print ("\nThank you for using Number Sorter App!")
                 exit()
             if Fourth >= Third:
                 Three = Fourth
                 Four = Three
                 print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
-                print ("Thank you for using Number Sorter App!")
+                print ("\nThank you for using Number Sorter App!")
                 exit()
         if Third >= Second and Third >= Fourth:
             Two = Third
+            if Second >= Fourth:
+                Three = Second
+                Four = Fourth
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
+            if Fourth >= Second:
+                Three = Fourth
+                Four = Second
+                print (f"The highest number is '{One}', then '{Two}', then '{Three}', and the lowest number is '{Four}.'")
+                print ("\nThank you for using Number Sorter App!")
+                exit()
         if Fourth >= Second and Fourth >= Third:
             Two = Fourth
     elif Second >= First and Second >= Third and Second >= Fourth:
