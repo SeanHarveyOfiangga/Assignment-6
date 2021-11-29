@@ -6,7 +6,7 @@
 import random
 
 def intro():
-    print ("Welcome in Addition Quiz App!")
+    print ("\nWelcome to Addition Quiz App!")
 intro()
 
 def generator1():
@@ -19,8 +19,10 @@ def generator1():
             print ("Invalid Answer, Please Try Again.\n")
         if answer == number1 + number2:
             answer = 1
+            print ("Correct!")
             return answer
         else: 
+            print (f"The correct answer is: {number1 + number2}")
             answer = 0
             return answer
 def generator2():
