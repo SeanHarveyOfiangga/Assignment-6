@@ -10,9 +10,12 @@ def generator1():
     number2 = random.randint(0,99)
     while True:
         try:
-            int(input(f"{number1} + {number2} = "))
+           answer = int(input(f"\nQuestion number 1:\n{number1} + {number2} = "))
         except ValueError:
             print ("Invalid Answer, Please Try Again.\n")
+        if answer == number1 + number2:
+            answer = 1
+            return answer
         else:
             break
 def generator2():
@@ -106,7 +109,9 @@ def generator10():
         else:
             break
 
-generator1()
+
+first = generator1()
+print (first)
 generator2()
 generator3()
 generator4()
