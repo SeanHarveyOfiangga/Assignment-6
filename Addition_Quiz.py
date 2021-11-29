@@ -5,8 +5,60 @@
 
 import random
 
-number1 = random.randint(0,99)
-number2 = random.randint(0,99)
+def generator1():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break
+def generator2():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    int(input(f"{number1} + {number2} = "))
+def generator3():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    int(input(f"{number1} + {number2} = "))
+def generator4():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    int(input(f"{number1} + {number2} = "))    
+def generator5():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    int(input(f"{number1} + {number2} = "))
+def generator6():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    int(input(f"{number1} + {number2} = "))
+def generator7():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    int(input(f"{number1} + {number2} = "))
+def generator8():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    int(input(f"{number1} + {number2} = "))
+def generator9():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    int(input(f"{number1} + {number2} = "))
+def generator10():
+    number1 = random.randint(0,99)
+    number2 = random.randint(0,99)
+    int(input(f"{number1} + {number2} = "))
 
-for i in range (10):
-        int(input(f"{number1} + {number2} = "))
+generator1()
+generator2()
+generator3()
+generator4()
+generator5()
+generator6()
+generator7()
+generator8()
+generator9()
+generator10()
