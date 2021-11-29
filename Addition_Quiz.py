@@ -18,39 +18,93 @@ def generator1():
 def generator2():
     number1 = random.randint(0,99)
     number2 = random.randint(0,99)
-    int(input(f"{number1} + {number2} = "))
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break
 def generator3():
     number1 = random.randint(0,99)
     number2 = random.randint(0,99)
-    int(input(f"{number1} + {number2} = "))
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break
 def generator4():
     number1 = random.randint(0,99)
     number2 = random.randint(0,99)
-    int(input(f"{number1} + {number2} = "))    
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break   
 def generator5():
     number1 = random.randint(0,99)
     number2 = random.randint(0,99)
-    int(input(f"{number1} + {number2} = "))
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break
 def generator6():
     number1 = random.randint(0,99)
     number2 = random.randint(0,99)
-    int(input(f"{number1} + {number2} = "))
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break
 def generator7():
     number1 = random.randint(0,99)
     number2 = random.randint(0,99)
-    int(input(f"{number1} + {number2} = "))
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break
 def generator8():
     number1 = random.randint(0,99)
     number2 = random.randint(0,99)
-    int(input(f"{number1} + {number2} = "))
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break
 def generator9():
     number1 = random.randint(0,99)
     number2 = random.randint(0,99)
-    int(input(f"{number1} + {number2} = "))
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break
 def generator10():
     number1 = random.randint(0,99)
     number2 = random.randint(0,99)
-    int(input(f"{number1} + {number2} = "))
+    while True:
+        try:
+            int(input(f"{number1} + {number2} = "))
+        except ValueError:
+            print ("Invalid Answer, Please Try Again.\n")
+        else:
+            break
 
 generator1()
 generator2()
