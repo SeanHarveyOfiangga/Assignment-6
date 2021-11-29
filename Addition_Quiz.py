@@ -167,7 +167,7 @@ def total():
 total_score = total()
 
 def score():
-    print (f"Your score is: {total_score}/10")
+    print (f"\nYour score is: {total_score}/10")
     if total_score >= 8:
         print ("Congratulations, keep it up!")
     elif total_score >= 5 and total_score <= 7:
